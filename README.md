@@ -3,8 +3,6 @@
 
 The Cochrane Library Scraper is a Java-based application designed to extract topic headers and associated URLs from the Cochrane Library website. It utilizes Selenium WebDriver and Jsoup libraries to navigate through web pages, extract relevant data, and store it for further analysis.
 
-Project deadline is 3 to 4 days.
-
 ## Reasoning behind the Design
 The design of this application aims to achieve modularity, efficiency, and ease of maintenance, while also ensuring adherence to secure data scraping practices. While security considerations are paramount in any web scraping endeavor, it's crucial to recognize that certain websites may not require additional security measures beyond standard best practices. The primary components of this application include:
 •	Main Class (Main.java): Responsible for orchestrating the scraping process, including visiting the main URL, extracting topic headers and URLs, and processing the extracted data.
